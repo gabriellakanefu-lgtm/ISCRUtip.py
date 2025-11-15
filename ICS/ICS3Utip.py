@@ -9,7 +9,7 @@ if pourboire.lower() == "oui":
         cout_finale = sous_total + taxes + p 
         print(f"\nSous-Total: {sous_total}")
         print(f"Taxes: {round(taxes, 2)}")
-        print(f"Pourboire: {round(p,1)}")
+        print(f"Pourboire: {round(p,2)}")
         print(f"Total finale: {round(cout_finale, 2)}")
 
     else:
